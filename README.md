@@ -1,16 +1,16 @@
-# 🧬 VGP Genome Assembly — *Saccharomyces cerevisiae* S288C
+# VGP Genome Assembly — *Saccharomyces cerevisiae* S288C
 
 A complete diploid genome assembly of *Saccharomyces cerevisiae* S288C using the **Vertebrate Genome Project (VGP) pipeline** on Galaxy, combining PacBio HiFi and Illumina Hi-C sequencing data to produce two fully phased, chromosome-level haplotype assemblies.
 
 ---
 
-## 📖 Overview
+## Overview
 
 This project follows the [VGP Galaxy tutorial](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/vgp_genome_assembly/tutorial.html) to assemble a high-quality, haplotype-phased diploid genome. Using synthetic HiFi reads and real Hi-C data, the pipeline produces two phased haplotype assemblies (Hap1 and Hap2) evaluated with multiple quality control tools.
 
 ---
 
-## 🔬 Organism
+## Organism
 
 | Property | Value |
 |---|---|
@@ -21,7 +21,7 @@ This project follows the [VGP Galaxy tutorial](https://training.galaxyproject.or
 
 ---
 
-## 📥 Input Data
+## Input Data
 
 | Dataset | Format | Source |
 |---|---|---|
@@ -31,7 +31,7 @@ This project follows the [VGP Galaxy tutorial](https://training.galaxyproject.or
 
 ---
 
-## 🛠️ Pipeline & Tools
+## Pipeline & Tools
 
 All steps were run on [Galaxy](https://usegalaxy.org) using the following tools:
 
@@ -51,7 +51,7 @@ All steps were run on [Galaxy](https://usegalaxy.org) using the following tools:
 
 ---
 
-## 🔄 Pipeline Steps
+## Pipeline Steps
 
 ```
 HiFi reads (x3 FASTA)
@@ -92,7 +92,7 @@ Final: Hap1 & Hap2 chromosome-level assemblies
 
 ---
 
-## 📊 Key Results
+## Key Results
 
 ### Assembly Statistics (gfastats)
 
@@ -122,7 +122,7 @@ Final: Hap1 & Hap2 chromosome-level assemblies
 
 ---
 
-## 🔗 References
+## References
 
 - Rhie et al. (2021). Towards complete and error-free genome assemblies of all vertebrate species. *Nature*.
 - Cheng et al. (2021). Haplotype-resolved de novo assembly using phased assembly graphs with hifiasm. *Nature Methods*.
