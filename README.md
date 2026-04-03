@@ -132,7 +132,7 @@ Final: Hap1 & Hap2 chromosome-level assemblies
 
 ---
 
-## 👤 Author
+## Author
 
 > Washma Sajjad
 
